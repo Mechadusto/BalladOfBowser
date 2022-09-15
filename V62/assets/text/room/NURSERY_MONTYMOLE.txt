@@ -1,0 +1,43 @@
+INFO: {
+	NAME: "Monty Mole Burrow",
+	NAMES: "Monty Mole Burrows",
+	DESC: "A secure nest covered in earth, its here where Monty Mole pups are raised. They need a steady supply of meat!",
+},
+
+
+BONUS: {
+	NAME: "Wack-A-Mole",
+	DESC: "Increases the rate at which Monty Moles are born.",
+},
+
+STATS: [
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+	
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases reproduction rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "Contains the child",
+	},
+	{
+		NAME: "Furnishing",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Monty Mole Keeper",
+	VERB: "Fetching fresh dirt.",
+},
+
+

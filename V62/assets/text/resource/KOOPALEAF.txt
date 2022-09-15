@@ -1,0 +1,3 @@
+NAME: "Koopa Leaf",
+NAMES: "Koopa Leaves",
+DESC: "A succulent shrub often found by lakes and rivers. Its tough leaves are loved by Koopas, who often use it for Koopa Tea.",

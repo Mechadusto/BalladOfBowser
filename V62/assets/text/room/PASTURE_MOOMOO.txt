@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Moo Moo Meadow",
+	NAMES: "Moo Moo Meadows",
+	DESC: "A paddock for Moo Moo.
+	They are filled with livestock that in turn populate the pasture.",
+},
+
+BONUS: {
+	NAME: "Moo Moo Breeding",
+	DESC: "Makes Moo Moos fatter and plumper",
+},
+
+WORK: {
+	TITLE: "Rancher",
+	VERB: "Feeding the Moo Moos",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers that will be needed. This is dependant on the amount of animals",
+	},
+	{
+		NAME: "Livestock",
+		DESC: "The maximum amount of animals this pasture can hold. Increased by placing the room over high fertility regions, or increasing its size",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Gate",
+		DESC: "Entrance and resource storage for pasture.",
+	},
+],

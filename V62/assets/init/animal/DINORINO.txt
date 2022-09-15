@@ -1,0 +1,28 @@
+SPEED: 3,
+HEIGHT: 6,
+MASS: 210,
+
+SOUND: SHEEP,
+
+SPRITE: Dinorino,
+COLOR: [255,255,255,],
+
+CARAVAN: true,
+
+RESOURCES: [MEAT, LEATHER,],
+RESOURCE_AMOUNT: [0.8, 0.5,],
+
+CLIMATE: {
+	COLD: 0,
+	TEMPERATE: .8,
+	HOT: 1,
+},
+
+TERRAIN: {
+	FOREST: 0.5,
+	WET: 0.5,
+	NONE: 1.0,
+},
+
+PACK: true,
+GRAZES: true,

@@ -1,0 +1,17 @@
+NAME: "Koopa",
+NAMES: "Koopas",
+POSSESSIVE: "Koopa",
+DESC: 
+"Koopas are imperialistic turtles that love rivers, warm climates, and sprawling stone fortresses",
+
+DESC_LONG:
+"Koopas are prone to great ambitions. They're some of the most skilled and adaptable fighters in all of the mushroom kingdom. Building castles is almost second nature to them.
+They're poor farmers however, and need warm climates and water to thrive!",
+
+ARMY_NAMES: [
+	"Hammer Bros.",
+	"Fire Bros.",
+	"Boomerang Bros.",
+	"Ice Bros", 
+	"Sledge Bros",
+],

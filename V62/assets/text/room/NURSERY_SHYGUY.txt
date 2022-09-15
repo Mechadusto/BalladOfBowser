@@ -1,0 +1,43 @@
+INFO: {
+	NAME: "Shy Guy Play Place",
+	NAMES: "Shy Guy Play Places",
+	DESC: "A toybox where babies are left to their own devices. A young Shy Guy needs sweet syrup to stay content",
+},
+
+
+BONUS: {
+	NAME: "Shy Guy Infestation",
+	DESC: "Increases the rate at which Shy Guys are born.",
+},
+
+STATS: [
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+	
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases reproduction rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "Contains the child",
+	},
+	{
+		NAME: "Furnishing",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Shy Guy Caretaker",
+	VERB: "Keeping young Shy Guys in line.",
+},
+
+

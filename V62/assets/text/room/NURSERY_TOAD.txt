@@ -1,0 +1,43 @@
+INFO: {
+	NAME: "Toad Nursery",
+	NAMES: "Toad Nuseries",
+	DESC: "A cozy daycare where baby toads are raised. Young toads need a steady supply of shrooms",
+},
+
+
+BONUS: {
+	NAME: "Toadsplosion",
+	DESC: "Increases the rate at which Toads are born.",
+},
+
+STATS: [
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+	
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases reproduction rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "Contains the child",
+	},
+	{
+		NAME: "Furnishing",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Toad Nanny",
+	VERB: "Tending to young Toads.",
+},
+
+

@@ -1,0 +1,28 @@
+SPEED: 4,
+HEIGHT: 5,
+MASS: 110,
+
+SOUND: SHEEP,
+
+SPRITE: MooMoo,
+COLOR: [255,255,255,],
+
+CARAVAN: true,
+
+RESOURCES: [LEATHER, MILK,],
+RESOURCE_AMOUNT: [0.2, 0.8,],
+
+CLIMATE: {
+	COLD: 0.8,
+	TEMPERATE: 1,
+	HOT: 0.6,
+},
+
+TERRAIN: {
+	FOREST: 0.5,
+	WET: 0.5,
+	NONE: 1.0,
+},
+
+PACK: true,
+GRAZES: true,

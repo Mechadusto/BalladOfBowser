@@ -1,0 +1,3 @@
+NAME: "Brick",
+NAMES: "Bricks",
+DESC: "Sturdy bricks fired from clay. Perfect for large construction projects.",

@@ -1,0 +1,3 @@
+NAME: "Goomnut",
+NAMES: "Goomnuts",
+DESC: "A tough and bitter nut, universally loved by goombas",

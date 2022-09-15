@@ -1,0 +1,43 @@
+INFO: {
+	NAME: "Koopa Hatchery",
+	NAMES: "Koopa Hatcheries",
+	DESC: "A warm nesting ground for aspiring Koopa Parents. Young koopas need a steady supply of Koopa Leaves.",
+},
+
+
+BONUS: {
+	NAME: "Koopa Enthusiasm",
+	DESC: "Increases the rate at which Koopas are born.",
+},
+
+STATS: [
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+	
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases reproduction rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "Contains the child",
+	},
+	{
+		NAME: "Furnishing",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Koopa Elder",
+	VERB: "Keeping an eye on baby Koopas.",
+},
+
+

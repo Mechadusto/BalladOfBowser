@@ -1,0 +1,17 @@
+NAME: "Shy Guy",
+NAMES: "Shy Guys",
+POSSESSIVE: "Shy Guy",
+DESC: 
+"Childish hoodlums with no respect for civilization. They're crafty but nearly impossible to keep in line",
+
+DESC_LONG:
+"All shy guys care about is having fun, usually at the expense at everyone else. A Shy Guy enclave can make a real mess of a town, making them unpopular with most other races.
+However, if you can maintain order you'll find they're master craftsmen, and put up quite the fight!",
+
+ARMY_NAMES: [
+	"Shy Guy Squad Red",
+	"Shy Guy Squad Blue",
+	"Shy Guy Squad Yellow",
+	"Shy Guy Squad Green",
+	"Shy Guy Squad Pink",
+],

@@ -1,0 +1,15 @@
+NAME: "Toads",
+NAMES: "Toads",
+POSSESSIVE: "Toad",
+DESC: 
+"Toads are the cheerful inhabitants of the mushroom kingdom. They're skilled farmers and humble craftsmen, but are terrified of conflict!",
+
+DESC_LONG:
+"Toads are a race of mushroom people that have spread all throughout the mushroom kingdom.",
+
+ARMY_NAMES: [
+	"Toad Brigade",
+	"Toad Rangers",
+	"Shroom Brigade",
+	Toad Patrol",
+],

@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Dino Rino Pen",
+	NAMES: "Dino Rino Pens",
+	DESC: "A paddock for Dino Rinos.
+	They are filled with Dino Rinos that provide meat and leather, and populate the pasture.",
+},
+
+BONUS: {
+	NAME: "Prehistoric Ranching",
+	DESC: "Makes Dino Rinos fatter and plumper",
+},
+
+WORK: {
+	TITLE: "Dino Tamer",
+	VERB: "Trying not to get trampled.",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers that will be needed. This is dependant on the amount of animals",
+	},
+	{
+		NAME: "Livestock",
+		DESC: "The maximum amount of animals this pasture can hold. Increased by placing the room over high fertility regions, or increasing its size",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Gate",
+		DESC: "Entrance and resource storage for pasture.",
+	},
+],

@@ -1,0 +1,45 @@
+INFO: {
+	NAME: "Gourmet Kitchen",
+	NAMES: "Gourmet Kitchens",
+	DESC: "A special kitchen that produces gourmet meals.",
+},
+
+BONUS: {
+	NAME: "Culinary Arts",
+	DESC: "Increases effectiveness of gourmet kitchens",
+},
+
+WORK: {
+	TITLE: "Chef",
+	VERB: "Making savoury dishes",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Stove",
+		DESC: "Where chefs make the magic happen",
+	},
+	{
+		NAME: "Icebox",
+		DESC: "Where fresh meals are stored.",
+	},
+	{
+		NAME: "Counterspace",
+		DESC: "Adds Efficiency to the room",
+	},
+],
+

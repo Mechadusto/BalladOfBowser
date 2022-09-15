@@ -1,0 +1,43 @@
+INFO: {
+	NAME: "Goomba Daycare",
+	NAMES: "Goomba Daycares",
+	DESC: "A humble daycare where young goombas stay while the parents go to work. Baby goombas love goomnuts",
+},
+
+
+BONUS: {
+	NAME: "Goomba Stamina",
+	DESC: "Increases the rate at which Goombas are born.",
+},
+
+STATS: [
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+	
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases reproduction rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "Contains the child",
+	},
+	{
+		NAME: "Furnishing",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Goomba Grandpappy",
+	VERB: "Keepings the kids in check.",
+},
+
+

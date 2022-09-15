@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Moo Moo",
+	NAMES: "Moo Moos",
+	DESC: "Large, docile cattle that are renowned for their milk. They thrive in temperate climates.",
+},

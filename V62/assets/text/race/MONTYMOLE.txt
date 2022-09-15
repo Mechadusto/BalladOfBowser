@@ -1,0 +1,15 @@
+NAME: "Monty Mole",
+NAMES: "Monty Moles",
+POSSESSIVE: "Monty Mole",
+DESC: 
+"Monty Moles are the rulers of the underground, nobody loves to dig as much as they do! They can't stand working outside of caves.",
+
+DESC_LONG:
+"Monty Moles were always more at home under the surface then over it. They love mining more then anything, and have mastered
+subterranean agriculture and animal husbandry. They're also talented mechanics. Just don't expect them to do much outside of the comfort of their caves.",
+
+ARMY_NAMES: [
+	"Crystal Cave Sappers",
+	"Vanilla Dome Sappers",
+	"Hazy Maze Sappers",
+],

@@ -1,0 +1,318 @@
+PLAYABLE: true,
+
+PROPERTIES: {
+	HEIGHT: 6,
+	WIDTH: 9,
+	ADULT_AT_DAY: 90,
+	CORPSE_DECAY: true,
+	SLEEPS: true,
+},
+
+HOME: HUMAN,
+
+TECH: [
+	*,
+],
+
+PREFERRED: {
+	FOOD: [
+		KOOPALEAF,
+		FISH,
+		VEGETABLES,
+	],
+	STRUCTURE: {
+		MOUNTAIN: 0.3,
+		STONE: 0.7,
+		GRAND: 0.9,
+		WOOD: 0.2,
+	},
+	WORK: {
+        FISHERY_NORMAL: 1.0,
+		WORKSHOP_MASON: 1.0,
+		MINE_STONE: 1.0,
+		MINE_CLAY: 1.0,
+		REFINER_COALER: 1.0,
+
+		_JANITOR: 1.0,
+		LABORATORY_NORMAL: 1.0,
+
+	},
+	WORK_SOLDIER: 1.0,
+},
+
+POPULATION: {
+	MAX_REGION: 1,
+	MAX_CITY: 1,
+	REPRODUCTION_REGION_PER_DAY: 0.06,
+	IMMIGRANTS_PER_DAY: 1,
+	CLIMATE: {
+		COLD: 0.8,
+		TEMPERATE: 1.0,
+		HOT: 0.8,
+	},
+	TERRAIN: {
+		MOUNTAIN: 0.02,
+		FOREST: 0.02,
+		NONE: 1,
+		WET: 2.5,
+	},
+},
+
+BONUS: {
+	
+	PHYSICS: {
+		RESISTANCE_COLD: 0.3,
+		RESISTANCE_HOT: 1.0,
+		DEATH_AGE: 200,
+	},
+	BATTLE: {
+		ARMOUR: 2,
+	},
+	ROOM_TYPE: {
+		FARM: 0.5,
+        PASTURE: 0.5,
+	},
+	ROOM: {
+		FARM_KOOPALEAF: 1.3,
+        FISHERY_NORMAL: 1.3,
+		WORKSHOP_MASON: 1.3,
+		WORKSHOP_SMITY:1.3,
+		WORKSHOP_POTTERY: 1.3,
+		MINE_STONE: 1.3,
+		MINE_CLAY: 1.3,
+		_BARRACKS: 1.3,
+		
+
+	},
+	RATES: {
+		LEARNING: 1.0,
+		NEUROTICISM: 0.1,			
+	},
+	BEHAVIOUR: {
+		LAWFULNESS: 0.6,
+		SUBMISSION: 0.6,
+		SKINNYDIPPING: 1.0,			
+	},
+},
+
+TRAITS: {
+*: 0,
+},
+
+RESOURCE: {
+	MEAT: 30,
+	LEATHER: 10,
+},
+
+RELIGION_INCLINATION: {
+	TEMPLE_BOWSER 1,
+	TEMPLE_PEACH: 0.2,
+	TEMPLE_BOO: 0.2,
+	TEMPLE_CRATOR: 0,
+	TEMPLE_AMINION: 0,
+	TEMPLE_ATHURI: 0,
+	TEMPLE_SHMALOR: 0,	
+},
+
+STATS: {
+	SERVICE: {
+		
+	},
+	
+	EQUIP: {
+		
+	},
+	
+	DEATH: {
+	
+	},
+	
+	EDUCATION: {
+		EDUCATION: {
+			CITIZEN: 1,		
+		},
+	},
+	
+	FOOD: {
+	
+	},
+	
+	BATTLE: {
+		COMBAT_TRAINING: {
+			CITIZEN: 1.1,
+		},
+	},
+	
+	NEEDS: {
+	
+	},
+	
+	WORK: {
+	
+		
+	
+	},
+	
+	POPULATION: {
+	
+	},
+	
+	ENVIRONMENT: {
+		SQUARENESS: {
+			CITIZEN: 0.1,
+			SLAVE: 0.5,
+			NOBLE: 1.5,
+			MULTIPLIER: 2,
+		},
+	},
+	
+	ACCESS: {
+		*: {
+
+		},
+
+		NOISE: {
+			CITIZEN: 0.5,
+			INVERTED: true,
+		},
+
+		LIGHT: {
+			CITIZEN: 1.5,
+		},
+
+		AWE: {
+			CITIZEN: 1.0,
+		},
+		DREAD: {
+			CITIZEN: 1.0,
+		},
+		SPACE: {
+			CITIZEN: 1.0,
+		},
+
+	},
+	
+	STORED: {
+		KOOPALEAF: {
+			CITIZEN: 1,
+			SLAVE: 0,
+			NOBLE: 1,
+			MULTIPLIER: 0.5,
+		},
+	},
+},
+
+APPEARANCE: {
+
+	SPRITE_FILE: Koopa,
+	SPRITE_EXTRA_FILE: Normal,
+	SPRITE_CHILD_FILE: Humanoid,
+	SPRITE_CHILD_SKELLETON_FILE: Humanoid_small,
+	SPRITE_SKELLETON_FILE: Humanoid,
+
+	COLOR_CLOTHES: [
+		{R: 114, G: 101, B: 35,},
+		{R: 142, G: 126, B: 44,},
+		{R: 83, G: 181, B: 94,},
+		{R: 62, G: 135, B: 70,},
+		{R: 105, G: 125, B: 239,},
+		{R: 79, G: 94, B: 181,},
+		{R: 53, G: 64, B: 122,},
+		{R: 193, G: 77, B: 0,},
+	],
+
+	COLOR_ARMOUR_LEVELS: [
+		{R: 107, G: 79, B: 65,},
+		{R: 99, G: 99, B: 99,},
+		{R: 168, G: 168, B: 180,},
+		{R: 209, G: 159, B: 54,},
+	],
+	
+	COLOR_BLOOD: {R: 126, G: 0, B: 22,},
+	
+	COLORS: {
+		BASE: {
+			TURNS_WHITE_WHEN_DEAD: true,
+			VALUES: [
+				{R: 255, G: 255, B: 255,},
+	
+			],
+		},
+		SKIN: {
+			GENERATE_RANDOMIZE: 0.2,
+			TURNS_WHITE_WHEN_DEAD: true,
+			VALUES: [
+				{R: 255, G: 255, B: 255,},
+				{R: 255, G: 0, B: 0,},
+				{R: 255, G: 255, B: 0,},
+	
+			],
+		},
+		SHELL: {
+			GENERATE_RANDOMIZE: 0.5,
+			VALUES: [
+				{R: 255, G: 0, B: 0,},
+				{R: 0, G: 255, B: 0,},
+				{R: 0, G: 0, B: 255,},
+				{R: 255, G: 255, B: 0,},
+				{R: 128, G: 0, B: 128,},
+				{R: 0, G: 0, B: 128,},
+				{R: 255, G: 0, B: 255,},
+			],
+		},
+	},
+
+	CHILD: {
+		OCCURRENCE_EXTRA1: 0,
+		OCCURRENCE_EXTRA2: 1.0,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: SKIN,
+		COLOR_EXTRA1: SHELL,
+		COLOR_EXTRA2: SHELL,
+	},
+
+	TYPES: [
+		{
+			OCCURRENCE: 1.0,
+			OCCURRENCE_EXTRA1: 1.0,
+			OCCURRENCE_EXTRA2: 0,
+			COLOR_SKIN: SKIN,
+			COLOR_LEG: SKIN,
+			COLOR_EXTRA1: SHELL,
+			COLOR_EXTRA2: SHELL,
+			
+			NAMESET_FILE_FIRST: KoopaFirst,
+			NAMESET_FILE_SURNAME: KoopaLast,
+			NAMESET_FILE_FIRST_NOBLE: StdFirstNoble,
+			NAMESET_FILE_SURNAME_NOBLE: StdLastNoble,
+
+			PORTRAIT: [
+				**SKIN
+				{
+					FRAME_START: 0,
+					FRAME_VARIATIONS: 1,
+					COLOR: SKIN,
+					STAINS: false,
+				},
+				**BASE
+				{
+					FRAME_START: 4,
+					FRAME_VARIATIONS: 1,
+					COLOR: BASE,
+					STAINS: true,
+				},
+				**SHELLBOOTS
+				{
+					FRAME_START: 8,
+					FRAME_VARIATIONS: 1,
+					COLOR: SHELL,
+					STAINS: true,
+				},
+
+		
+
+			],
+		},
+	],	
+},
+

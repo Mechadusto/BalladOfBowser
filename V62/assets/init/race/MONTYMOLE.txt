@@ -1,0 +1,293 @@
+PLAYABLE: true,
+
+PROPERTIES: {
+	HEIGHT: 6,
+	WIDTH: 9,
+	ADULT_AT_DAY: 80,
+	CORPSE_DECAY: true,
+	SLEEPS: true,
+},
+
+HOME: HUMAN,
+
+TECH: [
+	*,
+],
+
+PREFERRED: {
+	FOOD: [
+		MEAT,
+        MUSHROOM,
+	],
+	STRUCTURE: {
+		MOUNTAIN: 1.0,
+		STONE: 0.5,
+		GRAND: 0.7,
+		WOOD: 0.1,
+	},
+	WORK: {
+        PASTURE_SCUTTLEBUG: 1.0,
+	PASTURE_BALTI: 1.0,
+        MINE_COAL: 1.0,
+        MINE_ORE: 1.0,
+        MINE_SITHILON: 1.0,
+        MINE_STONE: 1.0,
+        MINE_GEM: 1.0,
+        MINE_CLAY: 1.0,
+        WORKSHOP_SMELTER: 1.0,
+        WORKSHOP_SMITHY: 1.0,
+
+        _WOODCUTTER: 0.3,
+       CARPENTER: 0.3,
+       FISHERY_NORMAL: 0.3,
+
+	   	_JANITOR: 1.0,
+		LABORATORY_NORMAL: 1.0,
+       
+	},
+},
+
+POPULATION: {
+	MAX_REGION: 1,
+	MAX_CITY: 1,
+	REPRODUCTION_REGION_PER_DAY: 0.06,
+	IMMIGRANTS_PER_DAY: 1,
+	CLIMATE: {
+		COLD: 0.8,
+		TEMPERATE: 1.0,
+		HOT: 0.8,
+	},
+	TERRAIN: {
+		MOUNTAIN: 2.5,
+		FOREST: 0.02,
+		NONE: 0.02,
+		WET: 0.03,
+	},
+},
+
+BONUS: {
+	
+	PHYSICS: {
+		RESISTANCE_COLD: 0.5,
+		RESISTANCE_HOT: 0.5,
+	},
+	BATTLE: {
+	
+	},
+	ROOM_TYPE: {
+        MINE: 1.2,
+		FARM: 0.5,
+        PASTURE: 0.5,
+	},
+	ROOM: {
+        PASTURE_SCUTTLEBUG: 1.2,
+        PASTURE_BALTI: 1.2,
+        FARM_CAVESHROOM: 1.2,
+        _WOODCUTTER: 0.5,
+        WORKSHOP_CARPENTER: 0.5,
+        WORKSHOP_SMITY: 1.2,
+        REFINER_SMELTER: 1.2,
+        REFINER_COALER: 0.5,
+	},
+	RATES: {
+		LEARNING: 1.0,
+		NEUROTICISM: 0.1,			
+	},
+	BEHAVIOUR: {
+		LAWFULNESS: 0.8,
+		SUBMISSION: 0.5,
+		SKINNYDIPPING: 0.4,			
+	},
+},
+
+TRAITS: {
+*: 0,
+},
+
+RESOURCE: {
+	MEAT: 30,
+	LEATHER: 10,
+},
+
+RELIGION_INCLINATION: {
+	TEMPLE_BOWSER 0.5,
+	TEMPLE_PEACH: 0.5,
+	TEMPLE_BOO: 0.5,
+	TEMPLE_CRATOR: 0,
+	TEMPLE_AMINION: 0,
+	TEMPLE_ATHURI: 0,
+	TEMPLE_SHMALOR: 0,	
+},
+
+STATS: {
+	SERVICE: {
+		
+	},
+	
+	EQUIP: {
+		
+	},
+	
+	DEATH: {
+	
+	},
+	
+	EDUCATION: {
+		EDUCATION: {
+			CITIZEN: 1,		
+		},
+	},
+	
+	FOOD: {
+	
+	},
+	
+	BATTLE: {
+	
+	},
+	
+	NEEDS: {
+	
+	},
+	
+	WORK: {
+	
+	},
+	
+	POPULATION: {
+	
+	},
+	
+	ENVIRONMENT: {
+		
+	},
+	
+	ACCESS: {
+		*: {
+
+		},
+
+		NOISE: {
+			CITIZEN: 0.5,
+			INVERTED: true,
+		},
+
+	LIGHT: {
+			CITIZEN: 3.0,
+			INVERTED: true,
+		},
+
+		AWE: {
+			CITIZEN: 1.0,
+		},
+
+		SPACE: {
+			CITIZEN: 0.5,
+		},
+
+	},
+	
+	STORED: {
+		ORE: {
+			CITIZEN: 1,
+			SLAVE: 0,
+			NOBLE: 1,
+			MULTIPLIER: 0.5,
+		},
+	},
+},
+
+APPEARANCE: {
+
+	SPRITE_FILE: MontyMole,
+	SPRITE_EXTRA_FILE: Normal,
+	SPRITE_CHILD_FILE: Humanoid,
+	SPRITE_CHILD_SKELLETON_FILE: Humanoid_small,
+	SPRITE_SKELLETON_FILE: Humanoid,
+	
+	COLOR_CLOTHES: [
+		{R: 114, G: 101, B: 35,},
+		{R: 142, G: 126, B: 44,},
+		{R: 83, G: 181, B: 94,},
+		{R: 62, G: 135, B: 70,},
+		{R: 105, G: 125, B: 239,},
+		{R: 79, G: 94, B: 181,},
+		{R: 53, G: 64, B: 122,},
+		{R: 193, G: 77, B: 0,},
+	],
+
+	COLOR_ARMOUR_LEVELS: [
+		{R: 107, G: 79, B: 65,},
+		{R: 99, G: 99, B: 99,},
+		{R: 168, G: 168, B: 180,},
+		{R: 209, G: 159, B: 54,},
+	],
+	
+	COLOR_BLOOD: {R: 255, G: 30, B: 30,},
+	
+	COLORS: {
+		SKIN: {
+			TURNS_WHITE_WHEN_DEAD: true,
+			RANDOM_SEED: 1,
+			VALUES: [
+				{R: 255, G: 255, B: 255,},
+			],
+		},
+        WHISKERS: {
+			TURNS_WHITE_WHEN_DEAD: false,
+			RANDOM_SEED: 1,
+			VALUES: [
+				{R: 50, G: 50, B: 50,},
+			],
+		},
+        BASE: {
+            TURNS_WHITE_WHEN_DEAD: true,
+			RANDOM_SEED: 1,
+			VALUES: [
+				{R: 255, G: 255, B: 255,},
+			],
+        },
+	},
+
+	CHILD: {
+		OCCURRENCE_EXTRA1: 0,
+		OCCURRENCE_EXTRA2: 1.0,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: SKIN,
+		COLOR_EXTRA1: WHISKERS,
+		COLOR_EXTRA2: WHISKERS,
+	},
+	
+	TYPES: [
+		{
+			OCCURRENCE: 0.5,
+			OCCURRENCE_EXTRA1: 1.0,
+			OCCURRENCE_EXTRA2: 0,
+			COLOR_SKIN: SKIN,
+			COLOR_LEG: SKIN,
+			COLOR_EXTRA1: WHISKERS,
+			COLOR_EXTRA2: WHISKERS,
+			
+			NAMESET_FILE_FIRST: StdFirst,
+			NAMESET_FILE_SURNAME: StdLast,
+			NAMESET_FILE_FIRST_NOBLE: StdFirstNoble,
+			NAMESET_FILE_SURNAME_NOBLE: StdLastNoble,
+
+			PORTRAIT: [
+				**Base
+				{
+					FRAME_START: 0,
+					FRAME_VARIATIONS: 1, 
+					COLOR: BASE,
+				},
+				**Skin
+				{
+					FRAME_START: 4,
+					FRAME_VARIATIONS: 1,
+					COLOR: SKIN,
+				},
+
+			],
+		},
+	],	
+},

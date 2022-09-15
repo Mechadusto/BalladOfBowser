@@ -1,0 +1,15 @@
+NAME: "Goomba",
+NAMES: "Goombas",
+POSSESSIVE: "Goomba",
+DESC: 
+"Goombas are hardy woodsmen that thrive in the wilderness. They're poor craftsmen due to the lack of hands.",
+
+DESC_LONG:
+"Goombas are a determined bunch. While not particularly educated or skilled, they're numerous, and thrive in difficulty conditions!",
+
+ARMY_NAMES: [
+	"Goombatallion",
+	"Goombombadiers",
+	"Goombrigade",
+	"Goombattlers",
+],

@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Scuttlebug",
+	NAMES: "Scuttlebugs",
+	DESC: "Large arthropods that lurk in dark caves. Their silk makes for sturdy fabric",
+},

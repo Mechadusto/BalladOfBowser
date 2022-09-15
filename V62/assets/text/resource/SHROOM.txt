@@ -1,0 +1,3 @@
+NAME: "Shroom",
+NAMES: "Shrooms",
+DESC: "A staple of every Toad's diet. Can used as a base for gourmet dishes",

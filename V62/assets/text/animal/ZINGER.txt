@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Zinger",
+	NAMES: "Zingers",
+	DESC: "Bzzaps are extremely territorial wasp-like creatures, most commonly found on the DK isles. Working with Zingers is an extremely painful task, but results in large quanities of delicious honey.",
+},

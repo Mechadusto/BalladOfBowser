@@ -1,0 +1,29 @@
+MASS: 45,
+SPEED: 2,
+HEIGHT: 4,
+
+SOUND: SHEEP,
+
+SPRITE: Zinger,
+COLOR: [255,255,255,],
+
+CARAVAN: false,
+
+RESOURCES: [SYRUP,],
+RESOURCE_AMOUNT: [0.75,],
+
+CLIMATE: {
+	COLD: 0.7,
+	TEMPERATE: 1,
+	HOT: 0.7,
+},
+
+TERRAIN: {
+	FOREST: 1,
+	WET: 0.5,
+	NONE: 1,
+	OCEAN: 0,
+},
+
+PACK: true,
+GRAZES: false,

@@ -1,0 +1,30 @@
+INFO: {
+	NAME: "Shroom Farm",
+	NAMES: "Shroom Farms",
+	DESC: "Grows a variety of flavorful shrooms.",
+},
+
+BONUS: {
+	NAME: "Shroom Farming",
+	DESC: "Increases production of Shroom farming.",
+},
+
+WORK: {
+	TITLE: "Shroom Farmer",
+	VERB: "Tending to shrooms",
+},
+
+STATS: [
+	{
+		NAME: "Fertility",
+		DESC: "The fertility of the farmland",
+	},
+	{
+		NAME: "Farmers",
+		DESC: "The amount of Farmers needed",
+	},
+	{
+		NAME: "Yearly Output",
+		DESC: "An estimate of how much this farm will output if well worked during a year. Not including bonuses, or irrigation",
+	},
+],

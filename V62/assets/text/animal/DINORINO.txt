@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Dino Rino",
+	NAMES: "Dino Rinos",
+	DESC: "Large dinosaurs that love hot climates. These prehistoric beasts have long been prized for their meat.",
+},

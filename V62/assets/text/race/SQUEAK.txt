@@ -1,0 +1,16 @@
+NAME: "Squeek",
+NAMES: "Squeeks",
+POSSESSIVE: "Squeek",
+DESC: 
+"Squeeks are ancient tribe of thieves that came from the desert. These days they're mostly traders, putting great value in the aquisition of wealth.",
+
+DESC_LONG:
+"Squeeks have a reputation as scheming desert bandits. While there's some truth to that, they've long since grown past that. 
+Squeeks love to build large, glamorous outposts, and specialize in creating high value crafts and trade goods. 
+Due to their small size, they're better archers then they are frontline combatants.",
+
+ARMY_NAMES: [
+	"Mouser Pack",
+	"Rat Pack",
+	"Squeek Pack",
+],

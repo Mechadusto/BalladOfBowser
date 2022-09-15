@@ -1,0 +1,3 @@
+NAME: "Gourmet Meal",
+NAMES: "Gourmet Meals",
+DESC: "A delectable takehome meal courtesy of chefs from the Gourmet Kitchen.",

@@ -1,0 +1,43 @@
+INFO: {
+	NAME: "Squeak Nest",
+	NAMES: "Squeak Nests",
+	DESC: "Litters of newborn Squeaks fill these cozy lairs. Baby Squeaks need milk to stay happy.",
+},
+
+
+BONUS: {
+	NAME: "Squeak Infestation",
+	DESC: "Increases the rate at which Squeaks are born.",
+},
+
+STATS: [
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+	
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases reproduction rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "Contains the child",
+	},
+	{
+		NAME: "Furnishing",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Squeek Caretaker",
+	VERB: "Keeping the furniture un-gnawed.",
+},
+
+

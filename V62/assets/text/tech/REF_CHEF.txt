@@ -1,0 +1,22 @@
+TECHS: [
+
+	{
+		NAME: "Gourmet Chef",
+		CATEGORY:"Refining",
+
+		DESC: "Time for some real food! Skilled chefs can make high-efficiency meals out of all sorts of things.
+
+		%r%%r%
+
+		(Only effectively used by Toads.)
+		",
+	},
+
+	{
+		NAME: "Culinary school",
+		CATEGORY:"Refining",
+
+		DESC: "Your chefs grow even more skillful, minimizing waste and optimizing recipes.",
+	},
+
+],

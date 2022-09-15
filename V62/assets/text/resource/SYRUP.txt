@@ -1,0 +1,3 @@
+NAME: "Syrup",
+NAMES: "Syrup",
+DESC: "A, viscous, sugary liquid perfect for sweet tooths",

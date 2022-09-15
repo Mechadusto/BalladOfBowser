@@ -1,0 +1,29 @@
+SPEED: 1,
+HEIGHT: 5,
+MASS: 200,
+
+SOUND: SHEEP,
+
+SPRITE: ScuttleBug,
+COLOR: [255,255,255,],
+
+CARAVAN: false,
+
+RESOURCES: [MEAT, COTTON,],
+RESOURCE_AMOUNT: [0.8, 0.5,],
+
+CLIMATE: {
+	COLD: 0.75,
+	TEMPERATE: 1.0,
+	HOT: 1.0,
+},
+
+TERRAIN: {
+	FOREST: 0.1,
+	WET: 0.1,
+	MOUNTAIN: 1.0,
+	NONE: 0.1,
+},
+
+PACK: false,
+GRAZES: true,

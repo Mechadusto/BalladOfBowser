@@ -1,0 +1,491 @@
+PLAYABLE: true,
+
+PROPERTIES: {
+	HEIGHT: 4,
+	WIDTH: 7,
+	ADULT_AT_DAY: 80,
+	CORPSE_DECAY: true,
+	SLEEPS: true,
+},
+
+HOME: TOAD,
+
+PREFERRED: {
+	FOOD: [
+		SHROOM,
+		GOURMET_MEAL,
+	],
+	STRUCTURE: {
+		MOUNTAIN: 0,
+		STONE: 0.7,
+		GRAND: 0.9,
+		WOOD: 0.7,
+	},
+	WORK: {
+		FARM_COTTON: 1.0,
+		FARM_FRUIT: 1.0,
+		FARM_GRAIN: 1.0,
+		FARM_VEG: 1.0,
+		FARM_SPICES: 1.0,
+		FARM_SHROOM: 1.0,
+		EATERY_NORMAL: 1.0,
+		CANTEEN_NORMAL: 1.0,
+		REFINER_CHEF: 1.0,
+		TAVERN_NORMAL: 1.0,
+		WORKSHOP_RATION: 1.0,
+		LIBRARY_NORMAL: 1.0,
+		ADMIN_NORMAL: 0.5,
+		STAGE_NORMAL: 1.0,
+
+		_JANITOR: 1.0,
+		LABORATORY_NORMAL: 1.0,
+	},
+	WORK_SOLDIER: 0,
+	WORK_STUDENT: 1.0,
+	OTHER_RACES: {
+		SHYGUY: -2.0,
+	},
+},
+
+POPULATION: {
+	MAX_REGION: 1,
+	MAX_CITY: 1,
+	REPRODUCTION_REGION_PER_DAY: 0.06,
+	IMMIGRANTS_PER_DAY: 1,
+	CLIMATE: {
+		COLD: 0.6,
+		TEMPERATE: 1.0,
+		HOT: 0.6,
+	},
+	TERRAIN: {
+		MOUNTAIN: 0.2,
+		FOREST: 0.2,
+		NONE: 1.0,
+	},
+	
+},
+
+BONUS: {
+	PHYSICS: {
+		DEATH_AGE: 90,
+		HEALTH: 0.8,
+		MASS: 44,
+		SPEED: 6,
+		ACCELERATION: 3.3,
+		STAMINA: 0.5,
+	},
+	
+	BATTLE: {
+		ARMOUR: 0.8,
+		MORALE: 1.05,
+		OFFENCE_SKILL: 0.5,
+		DEFENCE_SKILL: 0.4,
+		RANGED_SKILL: -1,
+		PIERCE_DAMAGE: 0.8,
+		BLUNT_DAMAGE: 155,
+	},
+	
+	BEHAVIOUR: {
+		SUBMISSION: 1.0,
+		LAWFULNESS: 1.0,
+		SKINNYDIPPING: 0.8,
+	},
+
+	ROOM_TYPE: {
+
+	},
+	
+	ROOM: {
+		FARM_SHROOM: 1.3,
+		FARM_COTTON: 1.3,
+		FARM_FRUIT: 1.3,
+		FARM_GRAIN: 1.3,
+		FARM_VEG: 1.3,
+		PASTURE_MOOMOO: 1.3,
+		PASTURE_ONX: 1.3,
+		PASTURE_ENT: 1.3,
+		REFINER_CHEF: 1.3,
+		EATERY_NORMAL: 1.3,
+
+		MINE_ORE: 0.5,
+		MINE_COAL: 0.5,
+		_BARRACKS: 0.5,
+		_BARRACKS_ARCHERY: 0.5,
+		_GAURD: 0.5,
+
+	},
+	RATES: {
+		
+	},
+
+},
+
+TRAITS: {
+
+},
+
+RESOURCE: {
+	MEAT: 15,
+	LEATHER: 20,
+},
+
+APPEARANCE: {
+
+	SPRITE_FILE: Toad,
+	SPRITE_EXTRA_FILE: Normal,
+	SPRITE_CHILD_FILE: Humanoid,
+	SPRITE_CHILD_SKELLETON_FILE: Humanoid_small,
+	SPRITE_SKELLETON_FILE: Humanoid,
+
+	COLOR_CLOTHES: [
+		{R: 114, G: 101, B: 35,},
+		{R: 142, G: 126, B: 44,},
+		{R: 83, G: 181, B: 94,},
+		{R: 62, G: 135, B: 70,},
+		{R: 105, G: 125, B: 239,},
+		{R: 79, G: 94, B: 181,},
+		{R: 53, G: 64, B: 122,},
+		{R: 193, G: 77, B: 0,},
+	],
+
+	COLOR_ARMOUR_LEVELS: [
+		{R: 107, G: 79, B: 65,},
+		{R: 99, G: 99, B: 99,},
+		{R: 168, G: 168, B: 180,},
+		{R: 209, G: 159, B: 54,},
+	],
+	
+	COLOR_BLOOD: {R: 255, G: 0, B: 22,},
+	
+	COLORS: {
+		SKIN: {
+			GENERATE_RANDOMIZE: 0.2,
+			TURNS_WHITE_WHEN_DEAD: true,
+			VALUES: [
+				{R: 189, G: 140, B: 99,},
+				{R: 254, G: 213, B: 173,},
+				{R: 206, G: 146, B: 112,},
+	
+			],
+		},
+		SPOTS: {
+			GENERATE_RANDOMIZE: 0.5,
+			VALUES: [
+				{R: 255, G: 0, B: 0,},
+				{R: 0, G: 255, B: 0,},
+				{R: 0, G: 0, B: 255,},
+				{R: 255, G: 255, B: 0,},
+				{R: 128, G: 0, B: 128,},
+				{R: 0, G: 0, B: 128,},
+				{R: 255, G: 0, B: 255,},
+			],
+		},
+		PANTS: {
+			GENERATE_RANDOMIZE: 0.5,
+			VALUES: [
+				{R: 255, G: 255, B: 255,},
+			],
+		},
+		CAP: {
+			GENERATE_RANDOMIZE: 0.2,
+			VALUES: [
+				{R: 255, G: 255, B: 255,},
+				{R: 0, G: 0, B: 0,},
+			],
+		},
+		VEST: {
+			GENERATE_RANDOMIZE: 0.2,
+			VALUES: [
+				{R: 255, G: 0, B: 0,},
+				{R: 0, G: 255, B: 0,},
+				{R: 0, G: 0, B: 255,},
+				{R: 255, G: 255, B: 0,},
+				{R: 128, G: 0, B: 128,},
+				{R: 0, G: 0, B: 128,},
+				{R: 255, G: 0, B: 255,},
+			],
+		},
+		SHOES: {
+			GENERATE_RANDOMIZE: 0.2,
+			VALUES: [
+				{R: 140, G: 66, B: 33,},
+			],
+		},
+		EYES: {
+			GENERATE_RANDOMIZE: 0.2,
+			VALUES: [
+				{R: 57, G: 41, B: 24,},
+			],
+		},
+	},
+
+	CHILD: {
+		OCCURRENCE_EXTRA1: 0,
+		OCCURRENCE_EXTRA2: 1.0,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: SHOES,
+		COLOR_EXTRA1: SPOTS,
+		COLOR_EXTRA2: SPOTS,
+	},
+
+	TYPES: [
+		{
+			OCCURRENCE: 1.0,
+			OCCURRENCE_EXTRA1: 1.0,
+			OCCURRENCE_EXTRA2: 1.0,
+			COLOR_SKIN: SKIN,
+			COLOR_LEG: SKIN,
+			COLOR_EXTRA1: CAP,
+			COLOR_EXTRA2: SPOTS,
+			
+			NAMESET_FILE_FIRST: ToadFirst,
+			NAMESET_FILE_SURNAME: ToadLast,
+			NAMESET_FILE_FIRST_NOBLE: StdFirstNoble,
+			NAMESET_FILE_SURNAME_NOBLE: StdLastNoble,
+
+			PORTRAIT: [
+				**Outline
+				{
+					FRAME_START: 0,
+					FRAME_VARIATIONS: 1,
+					COLOR: SKIN,
+					STAINS: false,
+				},
+				**Torso/Neck
+				{
+					FRAME_START: 4,
+					FRAME_VARIATIONS: 1,
+					COLOR: SKIN,
+					STAINS: true,
+				},
+				**Cap
+				{
+					FRAME_START: 8,
+					FRAME_VARIATIONS: 1,
+					COLOR: CAP,
+					STAINS: true,
+				},
+				**Spots
+				{
+					FRAME_START: 12,
+					FRAME_VARIATIONS: 1,
+					COLOR: SPOTS,
+					STAINS: true,
+				},
+				**Shoes
+				{
+					FRAME_START: 16,
+					FRAME_VARIATIONS: 1,
+					COLOR: SHOES,
+					STAINS: true,
+				},
+				**Vvest
+				{
+					FRAME_START: 20,
+					FRAME_VARIATIONS: 1,
+					COLOR: VEST,
+					STAINS: true,
+				},
+				**pANTS
+				{
+					FRAME_START: 24,
+					FRAME_VARIATIONS: 1,
+					COLOR: PANTS,
+					STAINS: true,
+				},
+				**Eyes
+				{
+					FRAME_START: 28,
+					FRAME_VARIATIONS: 1,
+					COLOR: EYES,
+					STAINS: false,
+				},
+
+			],
+		},
+	],	
+},
+
+FIRST_NAMES: ToadFirst,
+SURNAMES: ToadLast,
+FIRST_NAMES_NOBLE: ToadFirst,
+SURNAMES_NOBLE: ToadLast,
+
+STATS: {
+	SERVICE: {
+		EATERY_NORMAL: {
+			NOBLE: 1,
+			SLAVE: 0,
+			CITIZEN: 3,
+		},
+		TAVERN_NORMAL: {
+			NOBLE: 1,
+			SLAVE: 0,
+			CITIZEN: 3,
+		},
+
+		CANTEEN_NORMAL: {
+			CITIZEN: 3.5,
+		},
+
+	},
+	
+	EQUIPABLE: {
+	
+	},
+	
+	EDUCATION: {
+		
+	},
+	
+	ACCESS: {
+				*: {
+
+		},
+		DREAD: {
+			CITIZEN: 1,
+			INVERTED: true,
+		},
+		HARMONY: {
+			SLAVE: 1,
+			CITIZEN: 2,
+			NOBLE: 2,
+		},
+		
+		LIGHT: {
+			CITIZEN: 1,
+		},
+
+		SPACE: {
+			CITIZEN: 0.7,
+		},
+
+	},
+
+	DEATH: {
+	
+	},
+	
+	FOOD: {
+		FOOD_PREFFERENCE: {
+			SLAVE: 0.5,
+			CITIZEN: 1,
+			NOBLE: 2,
+		},
+		FOOD_DAYS: {
+			CITIZEN: 1.5,
+			SLAVE: 1,
+		},
+		FOOD_RATIONS: {
+			CITIZEN: 3,
+			SLAVE: 2,
+			NOBLE: 3,
+		},
+		DRINK_RATIONS: {
+			CITIZEN: 2,
+			SLAVE: 0.5,
+			NOBLE: 2,
+		},
+	},
+	
+	BATTLE: {
+	
+	},
+	
+	NEEDS: {
+	
+	},
+	
+	WORK: {
+	
+	},
+	
+	HOME: {
+		HOUSED: {
+			CITIZEN: 1,
+			SLAVE: 0.5,
+			NOBLE: 1,
+			EXPONENT: 0.6,
+		},
+		FURNITURE: {
+			CITIZEN: 2,
+			SLAVE: 1,
+			NOBLE: 2,
+			EXPONENT: 1.0,	
+		},
+		SPACE: {
+			CITIZEN: 0.5,
+			SLAVE: 0,
+			NOBLE: 0,
+		},
+	},
+	
+	POPULATION: {
+		SLAVES_OTHER: {
+			INVERTED: true,
+			CITIZEN: 1.5,
+		},
+	
+		SLAVES_FREED: {
+			CITIZEN: 0,
+			NOBLE: 0,
+			SLAVE: 0,
+		},
+		
+	},
+	
+	ENVIRONMENT: {
+		SQUARENESS: {
+			CITIZEN: 0.5,
+			SLAVE: 0,
+			NOBLE: 1,
+			MULTIPLIER: 0.5,
+		},
+		CANNIBALISM: {
+			CITIZEN: 0,
+			NOBLE: 0,
+			SLAVE: 0,
+		},
+		UNBURRIED: {
+			CITIZEN: 0,
+			NOBLE: 0,
+			SLAVE: 0,
+		},
+		ROUNDNESS: {
+			CITIZEN: 0,
+			NOBLE: 0,
+		},
+	},
+	
+	RELIGION: {
+		FAITH: {
+			CITIZEN: 1,
+			NOBLE: 3,
+			SLAVE: 0,
+		},
+	},
+	
+	STORED: {
+		SHROOM: {
+			CITIZEN: 2.5,
+			SLAVE: 0.5,
+			NOBLE: 3,
+			MULTIPLIER: 0.5,
+		},
+		GOURMET_MEAL: {
+			CITIZEN: 2.5,
+			SLAVE: 0.5,
+			NOBLE: 3,
+			MULTIPLIER: 0.5,
+		},
+		
+	},
+},
+
+RELIGION_INCLINATION: {
+	TEMPLE_CRATOR: 0.5,
+	TEMPLE_AMINION: 0.01,
+	TEMPLE_ATHURI: 0.5,
+	TEMPLE_SHMALOR: 0.01,
+},
+

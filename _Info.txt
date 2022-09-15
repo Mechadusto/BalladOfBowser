@@ -1,0 +1,7 @@
+VERSION: "62.28",
+GAME_VERSION_MAJOR: 62,
+GAME_VERSION_MINOR: 28,
+NAME "Mushroom Kingdom Mod",
+DESC: "Nintendo stuff",
+AUTHOR: "Mechadusto",
+INFO: "https://songsofsyx.mod.io/",
